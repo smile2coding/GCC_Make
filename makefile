@@ -4,4 +4,4 @@ SC = main.c myMath/myMath.c
 Inc = ./myMath/
 
 all:
-	${CC} ${SC} -I${Inc}
+	${CC} -g ${SC} -I${Inc}
